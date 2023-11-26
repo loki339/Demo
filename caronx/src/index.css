@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://wallpapers.com/images/hd/ultra-wide-4k-car-hns78a5o79j4te13.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+body::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(14, 10, 10, 0.684);
+  z-index: -1;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.card {
+  transition: transform 0.3s;
+  border: 1px solid #1377db;
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.927);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  border: 1px solid #007bff;
+  box-shadow: 0 8px 8px rgba(21, 209, 134, 0.2);
+  background-color: rgb(246, 246, 246);
+}
+
+.card2:hover {
+  transform: scale(1);
+}
+
+.hover1:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s;
+  border: 1px solid #007bff00;
+  box-shadow: 0 8px 16px rgba(209, 21, 21, 0.2);
+  background-color: rgba(236, 236, 227, 0);
+}
+
+.hover_remove:hover {
+  transform: none;
+}
+
+/* 
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+
+  -moz-osx-font-smoothing: grayscale;
+
+  background-image: url("https://wallpapers.com/images/hd/ultra-wide-4k-car-hns78a5o79j4te13.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.card {
+  transition: transform 0.3s;
+  border: 1px solid #1377db;
+  box-shadow: 0 4px 8px 0 rgba(210, 29, 29, 0.2);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  border: 1px solid #007bff;
+  box-shadow: 0 8px 16px rgba(209, 21, 21, 0.2), 0 0 6px rgba(209, 21, 21, 0.2);
+  background-color: rgb(236, 236, 227);
+}
+
+.hover1:hover {
+  transform: scale(1.1);
+  border: 1px solid #007bff;
+  box-shadow: 0 8px 16px rgba(209, 21, 21, 0.2);
+  opacity: 0.9;
+  background-color: rgb(236, 236, 227);
+} */
