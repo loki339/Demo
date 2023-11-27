@@ -1,5 +1,9 @@
 import { render, screen } from '@testing-library/react';
-import "./App.js";
+// Change this import statement
+// from:
+// import App from './App';
+// to:
+import App from './App.js';
 
 test('renders learn react link', () => {
   render(<App />);
