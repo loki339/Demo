@@ -29,7 +29,7 @@ import CarSellers from "./components/pages/CarSellers"
 
 const data = createContext();
 
-export default function App() {
+export default function App.js() {
   let [adminLoginStatus, setAdminLoginStatus] = useState(false);
   let [customerLoginStatus, setCustomerLoginStatus] = useState(false);
   let [customerId, setCustomerId] = useState(0);
