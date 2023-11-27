@@ -3,7 +3,7 @@
   "homepage": "https://loki339.github.io/caronx",
   "version": "0.1.0",
   "private": true,
-  "type": "module",
+  "type": "commonjs",
   "dependencies": {
     "@babel/core":"^7.23.0",
     "@babel/preset-react":"^7.22.15",
